@@ -70,6 +70,8 @@
                         <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
                             <div class="home-content">
                                 <h1>What's cookies?</h1>
+
+                                <p>In big data area, the dinfination of cookies has changed dramatically. </p>
                                 <p>#“Brain Hacking” and “Programming people” &nbsp;</br> #Cookies and Trackers &nbsp;</br> #Data Breachs&nbsp;</br> #Cybersecurity and Open Data</p>
                             </div>
                         </div>
@@ -226,7 +228,7 @@
                         <!-- Example row of columns -->
                         <div class="features-wrapper ">
                             <div class="col-md-3 col-sm-6 col-xs-12 ">
-                                <iframe width="400 " height="500 " frameborder="0 " src="http://www.bbc.com/news/av/embed/p063s0mm/43674480 "></iframe>
+                                <iframe width="400 " height="410 " frameborder="0 " src="http://www.bbc.com/news/av/embed/p063s0mm/43674480 "></iframe>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 ">
@@ -274,9 +276,120 @@
 
     </section>
 
+    <section id="cyber" class="cyber">
+        <div class="container ">
+            <div class="row ">
+                <div class="cyber-content ">
+                    <div class="col-md-12 col-sm-6 col-xs-12 ">
+                        <h4>cybersecurity and open data</h4>
+                        <h5>The issue of cybersecurity is in the spotlight with super-sized data breaches taken place.</h5>
+                        <h5>But first of all, how these data are leaked? </h5>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <iframe width="1200 " height="400 " frameborder="0 " src="https://ivywang958.github.io/BiggestBreachsChart/index.html "></iframe>
+
+    <section id="cyber" class="cyber">
+        <div class="container ">
+            <div class="row ">
+                <div class="cyber-content2">
+                    <div class="col-md-12 col-sm-6 col-xs-12 ">
+                        <h5>By analyzing World’s Biggest Data Breachs, we could see that the <mark>main reason of data leak is hacking</mark>.
+                        </h5>
+                        <h5>The chart below shows a overview of the proportion of data leak methods in a sum of year 2004-2018. </h5>
+
+                        <h5><br></h5>
+                    </div>
 
 
+                    <!-- pie chart -->
+                    <style>
+                        #chartdiv {
+                            width: 100%;
+                            height: 500px;
+                        }
+                    </style>
+                    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+                    <script src="https://www.amcharts.com/lib/3/pie.js"></script>
 
+                    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+                    <!-- Chart code -->
+                    <script>
+                        var chart = AmCharts.makeChart("chartdiv", {
+                            "type": "pie",
+                            "theme": "light",
+                            "dataProvider": [{
+                                "country": "accidentally published",
+                                "litres": 1759489396
+                            }, {
+                                "country": "hacked",
+                                "litres": 5106188178
+                            }, {
+                                "country": "inside job",
+                                "litres": 354702000
+                            }, {
+                                "country": "lost / stolen device or media",
+                                "litres": 218613000
+                            }, {
+                                "country": "poor security",
+                                "litres": 2090002000
+
+                            }],
+                            "valueField": "litres",
+                            "titleField": "country",
+                            "balloon": {
+                                "fixedPosition": true
+                            },
+                            "export": {
+                                "enabled": true
+                            }
+                        });
+                    </script>
+
+                    <!-- HTML -->
+                    <div id="chartdiv"></div>
+
+                    <!-- <div class="cyber-content2">
+                        <div class="col-md-12 col-sm-6 col-xs-12 ">
+
+                        </div>
+                    </div> -->
+
+
+                </div>
+            </div>
+    </section>
+    <section id="qoute2" class="qoute2">
+        <div class="overlay sections ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="qoute-content2 ">
+                        <div class="col-md-12 col-sm-6 col-xs-12 ">
+                            <h5><mark>How should we prevent our data?</mark> By looking at where is cybercrime come from, Caleb Barlow, a cybercrime fighter offered us a solution on a <a href="https://www.ted.com/talks/caleb_barlow_where_is_cybercrime_really_coming_from/transcript">TED talk</a>                                </h5>
+                            <h5><br></h5>
+                            <h4><mark>“</mark>The bad guys are moving fast; we've got to move faster. And the best way to do that is to <mark>open up and share data</mark> on what's happening.<mark>”</mark> -- Caleb Barlow
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- <section id="finish " class="finish ">
+        <div class="overlay sections ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="finish-wrapper ">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
 
     <!--Footer-->
@@ -311,6 +424,9 @@
     <script src="assets/js/modernizr.js "></script>
 
     <script src="assets/js/main.js "></script>
+    <!-- new for pie chart -->
+
 </body>
+
 
 </html>
