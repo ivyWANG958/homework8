@@ -245,6 +245,19 @@ p:last-child {
 
 .lightbg {
     background-color: #dddfeb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.lightbg2 {
+    background-color: #dddfeb;
+    opacity: 0.7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    overflow: hidden;
 }
 
 .transition {
@@ -556,6 +569,18 @@ textarea::-ms-input-placeholder {
 
 /*For Menu Section*/
 
+.quiz-content {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* delate ::after */
+
 
 /*For Home Section*/
 
@@ -595,13 +620,42 @@ textarea::-ms-input-placeholder {
 
 /*For About Us Section */
 
+.about {
+    background: transparent;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
 .about-content {
-    margin-top: 70px;
+    background: transparent;
+    opacity: 0.9;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-family: 'LinuxLibertineORegular';
+    color: black
+}
+
+.about-content1 h5 {
+    font-size: 17px;
+    font-family: 'LinuxLibertineORegular';
+}
+
+.about-content mark {
+    background-color: transparent;
+    font-size: 23px;
+    font-family: "Arial Black", sans-serif
 }
 
 .about-content h4 {
     font-size: 22px;
-    font-family: 'LinuxLibertineORegular';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .about-content h5 {
@@ -611,6 +665,43 @@ textarea::-ms-input-placeholder {
 
 .about-content a {
     margin-top: 40px;
+}
+
+
+/*For qoute Section*/
+
+.qoute {
+    background: transparent;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+.qoute-content {
+    background: transparent;
+    opacity: 0.9;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 170px;
+    padding-bottom: 250px;
+    font-size: 17px;
+    font-family: 'LinuxLibertineORegular';
+    color: black
+}
+
+.qoute-content h5 {
+    font-size: 20px;
+    font-family: 'LinuxLibertineORegular';
+    color: black
+}
+
+.qoute-content mark {
+    background-color: transparent;
+    font-size: 23px;
+    font-family: "Arial Black", sans-serif
 }
 
 
@@ -640,9 +731,7 @@ textarea::-ms-input-placeholder {
     background: rgba(231, 238, 241, 0.897);
     opacity: 0.8;
     padding-top: 35px;
-    padding-bottom: 35px;
-    /* font-family: "Raleway Webfont"; */
-    font-family: 'LinuxLibertineORegular';
+    padding-bottom: 40px;
     text-align: left;
     color: rgb(0, 0, 0);
 }
@@ -655,6 +744,19 @@ textarea::-ms-input-placeholder {
     color: rgb(0, 0, 0);
 }
 
+.features-item h5 {
+    background-color: transparent;
+    font-size: 23px;
+    font-family: "Arial Black", sans-serif
+}
+
+.features-item2 h6 {
+    font-size: 20px;
+    font-family: 'LinuxLibertineORegular';
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
 .features-content2 {
     padding-left: 60px;
     padding-right: 60px;
@@ -662,14 +764,6 @@ textarea::-ms-input-placeholder {
     opacity: 0.5;
     padding-top: 60px;
     padding-bottom: 35px;
-    font-family: 'LinuxLibertineORegular';
-    text-align: left;
-    color: rgb(0, 0, 0);
-}
-
-.features-item2 h6 {
-    font-size: 20px;
-    font-family: 'LinuxLibertineORegular';
     text-align: left;
     color: rgb(0, 0, 0);
 }
@@ -776,8 +870,15 @@ textarea::-ms-input-placeholder {
     opacity: 0.8;
 }
 
+.experience-content mark {
+    background-color: transparent;
+    font-size: 23px;
+    font-family: "Arial Black", sans-serif;
+    color: #fff
+}
+
 .experience-content h5 {
-    font-size: 17px;
+    font-size: 20px;
     font-family: 'LinuxLibertineORegular';
     color: #fff;
 }
