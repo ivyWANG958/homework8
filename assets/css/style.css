@@ -244,7 +244,7 @@ p:last-child {
 }
 
 .lightbg {
-    background-color: #dddfeb;
+    background-color: rgb(238, 247, 252);
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
@@ -252,7 +252,7 @@ p:last-child {
 }
 
 .lightbg2 {
-    background-color: #dddfeb;
+    background-color: #ffffff;
     opacity: 0.7;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -598,7 +598,11 @@ textarea::-ms-input-placeholder {
     margin-top: 240px;
     color: #fff;
 }
+.home-content{
 
+    padding-top: 20px;
+    padding-bottom: 120px;
+}
 .home-content h1 {
     font-size: 65px;
     text-transform: uppercase;
@@ -608,7 +612,8 @@ textarea::-ms-input-placeholder {
     letter-spacing: 12px;
     border-top: 2px solid #ecf0f2;
     border-bottom: 2px solid #ecf0f2;
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .home-content p {
@@ -628,6 +633,8 @@ textarea::-ms-input-placeholder {
     -o-background-size: cover;
     width: 100%;
     overflow: hidden;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 .about-content {
@@ -635,11 +642,16 @@ textarea::-ms-input-placeholder {
     opacity: 0.9;
     padding-left: 60px;
     padding-right: 60px;
-    padding-top: 35px;
-    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 20px;
     font-size: 17px;
     font-family: 'LinuxLibertineORegular';
     color: black
+}
+.about-content1{
+    padding-top: 20px;
+    padding-bottom: 80px;
+
 }
 
 .about-content1 h5 {
@@ -659,7 +671,7 @@ textarea::-ms-input-placeholder {
 }
 
 .about-content h5 {
-    font-size: 17px;
+    font-size: 20px;
     font-family: 'LinuxLibertineORegular';
 }
 
@@ -671,7 +683,7 @@ textarea::-ms-input-placeholder {
 /*For qoute Section*/
 
 .qoute {
-    background: transparent;
+    background: url(../images/60mins.jpg) no-repeat center top fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -685,24 +697,33 @@ textarea::-ms-input-placeholder {
     opacity: 0.9;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 170px;
-    padding-bottom: 250px;
-    font-size: 17px;
+    padding-top: 250px;
+    padding-bottom: 400px;
     font-family: 'LinuxLibertineORegular';
-    color: black
+    color: #fff
 }
 
 .qoute-content h5 {
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'LinuxLibertineORegular';
-    color: black
+    color: #fff
+}
+
+.qoute-content h4 {
+    font-size: 23px;
+    font-family: 'LinuxLibertineORegular';
+    color: #fff
 }
 
 .qoute-content mark {
     background-color: transparent;
-    font-size: 23px;
-    font-family: "Arial Black", sans-serif
+    font-size: 32px;
+    font-family: "Arial Black", sans-serif;
+    color: #fff
 }
+
+
+
 
 
 /*For Features Section*/
@@ -726,8 +747,8 @@ textarea::-ms-input-placeholder {
 }
 
 .features-content {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
     background: rgba(231, 238, 241, 0.897);
     opacity: 0.8;
     padding-top: 35px;
@@ -738,7 +759,7 @@ textarea::-ms-input-placeholder {
 
 .features-item h6 {
     padding: 5px, 5px, 5px, 5px;
-    font-size: 17px;
+    font-size: 20px;
     font-family: 'LinuxLibertineORegular';
     text-align: left;
     color: rgb(0, 0, 0);
@@ -842,7 +863,7 @@ textarea::-ms-input-placeholder {
     opacity: 0.9;
     padding-left: 60px;
     padding-right: 60px;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 50px;
 }
 
@@ -901,8 +922,8 @@ textarea::-ms-input-placeholder {
     opacity: 0.9;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 170px;
-    padding-bottom: 250px;
+    padding-top: 250px;
+    padding-bottom: 400px;
     font-family: 'LinuxLibertineORegular';
     color: #fff
 }
