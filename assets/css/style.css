@@ -543,11 +543,16 @@ textarea::-ms-input-placeholder {
     margin-bottom: 4rem;
 }
 
-.heading-content h3 {
-    font-size: 40px;
+.heading-content h4 {
+    font-size: 20px;
     font-family: 'LinuxLibertineORegular';
-    font-weight: 700;
-    letter-spacing: 3px;
+    color: rgb(224, 221, 221)
+}
+
+.heading-content h5 {
+    font-size: 30px;
+    font-family: "Arial Black", sans-serif;
+    color: #fff
 }
 
 .btn-default {
@@ -598,11 +603,12 @@ textarea::-ms-input-placeholder {
     margin-top: 240px;
     color: #fff;
 }
-.home-content{
 
-    padding-top: 20px;
-    padding-bottom: 120px;
+.home-content {
+    padding-top: 0px;
+    padding-bottom: 20px;
 }
+
 .home-content h1 {
     font-size: 65px;
     text-transform: uppercase;
@@ -612,8 +618,8 @@ textarea::-ms-input-placeholder {
     letter-spacing: 12px;
     border-top: 2px solid #ecf0f2;
     border-bottom: 2px solid #ecf0f2;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .home-content p {
@@ -648,10 +654,10 @@ textarea::-ms-input-placeholder {
     font-family: 'LinuxLibertineORegular';
     color: black
 }
-.about-content1{
-    padding-top: 20px;
-    padding-bottom: 80px;
 
+.about-content1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .about-content1 h5 {
@@ -666,13 +672,19 @@ textarea::-ms-input-placeholder {
 }
 
 .about-content h4 {
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-family: "Arial Black", sans-serif;
 }
 
 .about-content h5 {
     font-size: 20px;
     font-family: 'LinuxLibertineORegular';
+}
+
+.about-content h6 {
+    font-size: 22px;
+    font-family: 'LinuxLibertineORegular';
+    color: rgb(83, 83, 83)
 }
 
 .about-content a {
@@ -721,9 +733,6 @@ textarea::-ms-input-placeholder {
     font-family: "Arial Black", sans-serif;
     color: #fff
 }
-
-
-
 
 
 /*For Features Section*/
@@ -830,8 +839,7 @@ textarea::-ms-input-placeholder {
     color: #fff;
     text-transform: uppercase;
     font-size: 26px;
-    font-family: 'LinuxLibertineORegular';
-    font-weight: 600;
+    font-family: "Arial Black", sans-serif;
     margin-bottom: 50px;
 }
 
@@ -891,8 +899,8 @@ textarea::-ms-input-placeholder {
 }
 
 .cyber-content h4 {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-family: "Arial Black", sans-serif;
     text-transform: uppercase;
     color: black
 }
@@ -922,8 +930,8 @@ textarea::-ms-input-placeholder {
     opacity: 0.9;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 250px;
-    padding-bottom: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-family: 'LinuxLibertineORegular';
     color: #fff
 }
@@ -937,6 +945,13 @@ textarea::-ms-input-placeholder {
 .qoute-content2 h4 {
     font-size: 23px;
     font-family: 'LinuxLibertineORegular';
+    color: #fff
+}
+
+.qoute-content2 h3 {
+    font-size: 25px;
+    font-family: "Arial Black", sans-serif;
+    text-transform: uppercase;
     color: #fff
 }
 
