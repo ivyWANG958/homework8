@@ -269,6 +269,17 @@ p:last-child {
 }
 
 
+
+/* if mobile device max width 380px */
+@media only screen and (max-width: 480px) {
+    .lightbg{width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;}       
+    
+} 
+
+
+
 /*
 Section
 */
@@ -573,17 +584,55 @@ textarea::-ms-input-placeholder {
 
 
 /*For Menu Section*/
+.quiz {
+    background: url(../images/tech.png) no-repeat center top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
 
 .quiz-content {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 100px;
-    padding-bottom: 50px;
+   
+    font-family: 'LinuxLibertineORegular';
+    color: rgb(255, 255, 255);
     position: relative;
     overflow: hidden;
 }
 
+.flow {
+    background: url(../images/tech2.jpg) no-repeat center top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
 
+.flow-content {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-family: 'LinuxLibertineORegular';
+    color: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+}
+
+.flow-content h4 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-family: "Arial Black", sans-serif;
+    margin-bottom: 50px;
+}
 /* delate ::after */
 
 
@@ -655,6 +704,27 @@ textarea::-ms-input-placeholder {
     color: black
 }
 
+
+@media only screen and (max-width: 480px) {
+    .about-content {
+        background: transparent;
+        opacity: 0.9;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 12px;
+        font-family: 'LinuxLibertineORegular';
+        color: black
+        
+    }
+
+    .about-content1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
 .about-content1 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -663,6 +733,7 @@ textarea::-ms-input-placeholder {
 .about-content1 h5 {
     font-size: 17px;
     font-family: 'LinuxLibertineORegular';
+  
 }
 
 .about-content mark {
@@ -674,6 +745,7 @@ textarea::-ms-input-placeholder {
 .about-content h4 {
     font-size: 26px;
     font-family: "Arial Black", sans-serif;
+    text-align: center;
 }
 
 .about-content h5 {
@@ -707,13 +779,15 @@ textarea::-ms-input-placeholder {
 .qoute-content {
     background: transparent;
     opacity: 0.9;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 250px;
     padding-bottom: 400px;
     font-family: 'LinuxLibertineORegular';
     color: #fff
 }
+
+
 
 .qoute-content h5 {
     font-size: 25px;
@@ -738,7 +812,7 @@ textarea::-ms-input-placeholder {
 /*For Features Section*/
 
 .features {
-    background: url(../images/biggest.jpg) no-repeat center top fixed;
+    background: url(../images/facebook.jpeg) no-repeat center top fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -857,7 +931,7 @@ textarea::-ms-input-placeholder {
 /* For cyber Section*/
 
 .cyber {
-    background: transparent;
+    /* background: url(../images/tech2.png) no-repeat center top fixed; */
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -925,11 +999,13 @@ textarea::-ms-input-placeholder {
     overflow: hidden;
 }
 
+
+
 .qoute-content2 {
     background: transparent;
     opacity: 0.9;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 60px 40px;
+    
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'LinuxLibertineORegular';
@@ -1363,4 +1439,8 @@ Main components
     -webkit-transition-delay: 0s;
     -moz-transition-delay: 0s;
     transition-delay: 0s;
+}
+
+.iframe {
+    display:block;
 }
